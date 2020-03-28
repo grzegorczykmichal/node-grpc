@@ -1,0 +1,17 @@
+{
+  "name": "grpc-node-js-master-class-creating-modern-apis-and-microservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-protobuf": "^3.11.4",
+    "grpc": "^1.24.2",
+    "grpc-tools": "^1.8.1"
+  }
+}
