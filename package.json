@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "generate": "./cli/generate.sh"
+    "start:server": "nodemon ./server/server.js",
+    "generate": "./cli/generate.sh",
+    "generate:all": "ls ./proto | sed 's/\\.[^.]*$//' | xargs -n1 npm run generate --",
+    "preregenerate:all": "rm -rf ./server/proto/*",
+    "regenerate:all": "npm run generate:all"
   },
   "keywords": [],
   "author": "",
